@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Web App Meteo</title>
+		<link rel="stylesheet" href="Assets/fonts/OpenSans/stylesheet.css">
+		<link rel="stylesheet" href="Assets/css/normalize.min.css">
+		<link rel="stylesheet" href="Assets/css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="api">
+				<div class="container">
+					This demo needs an OpenWeather API key to work. 
+					<a target="_blank" href="https://home.openweathermap.org/users/sign_up">Get yours here for free!</a>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="top-banner">
+				<div class="container">
+					<h1 class="heading"> 🌍 Simple Weather App </h1>
+					<form>
+					<input type="text" placeholder="Search for a city" autofocus>
+					<button type="submit">SUBMIT</button>
+					<button id="pulisci">RESET</button>
+					<span class="msg"></span>
+					</form>
+				</div>
+			</section>
+			<section class="ajax-section">
+				<div class="container">
+					<ul class="cities"></ul>
+				</div>
+			</section>
+		</main>
+
+		<footer class="page-footer">
+			<div class="container">
+				<small>Made by Andrea
+				</small>
+			</div>
+		</footer>
+
+		<script src="Assets/JS/main.js"></script>
+
+	</body>
+</html>
